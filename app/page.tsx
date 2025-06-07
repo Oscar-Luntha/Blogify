@@ -1,6 +1,8 @@
+
 export default function Page(){
   return (
-    <div className="h-screen bg-slate-950 pt-20">
+    <div className="h-screen bg-slate-950">
+      
       <section className="w-full min-h-[70vh] bg-slate-900 lg:px-60 py-16 text-center">
         <h1 className=" text-4xl text-amber-500 md:text-6xl font-bold mb-4">Unleash Your Voice. Create Your Blog</h1>
         <p className="text-base lg:text-xl text-white mb-6">
