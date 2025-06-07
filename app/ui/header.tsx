@@ -14,7 +14,7 @@ export default function Header(){
             <div className="flex justify-between">
             <Link href="/">
             <div className="flex items-center gap-2 text-2xl font-semibold text-gray-800">
-                    <BookOpenText className="w-8 h-8 p-1 bg-amber-400 text-gray-950 rounded-sm" />
+                    <BookOpenText className="w-8 h-8 p-1 bg-amber-300 text-gray-950 rounded-sm" />
                     <h1 className="text-white">Blogify</h1>
                 </div>
             </Link>
