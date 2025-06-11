@@ -13,7 +13,7 @@ export default async function BlogPage() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-white">
-      <section className="w-full min-h-[70vh] bg-slate-900 lg:px-60 py-16 text-center">
+      <section className="w-full min-h-[50vh] bg-slate-900 lg:px-60 py-16 text-center">
         <h1 className="text-4xl text-yellow-300 md:text-6xl font-bold mb-4">
           All Blogs
         </h1>
