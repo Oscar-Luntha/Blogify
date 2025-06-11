@@ -19,8 +19,8 @@ export default async function PostPage({ params }: PostPageProps) {
   }
 
   return (
-    <main className="min-h-screen bg-slate-950 text-white px-6 py-16 lg:px-60">
-      <article className="max-w-4xl mx-auto">
+    <section className="min-h-screen bg-slate-950 text-white px-6 py-16 lg:px-60">
+      <article className="max-w-4xl pt-10 mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold text-yellow-300 mb-6">
           {post.title}
         </h1>
@@ -28,11 +28,8 @@ export default async function PostPage({ params }: PostPageProps) {
           <span>By {post.author?.name || "Unknown Author"}</span> ·{" "}
           <span>{new Date(post.createdAt).toLocaleDateString()}</span>
         </div>
-        <div
-          className="prose prose-invert max-w-none"
-          dangerouslySetInnerHTML={{ __html: post.content }}
-        />
+        <div className="max-w-none" dangerouslySetInnerHTML={{ __html: post.content }}/>
       </article>
-    </main>
+    </section>
   );
 }
